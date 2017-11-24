@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exercises_S5_L31
+namespace Exercises_S5_L31_2
 {
     public class OracleConnection : DbConnection
     {
@@ -10,7 +10,7 @@ namespace Exercises_S5_L31
 
         public override void OpenConnnection()
         {
-            Console.WriteLine("OracleConnection open: " + _connectionString);
+            Console.WriteLine("OracleConnection open: " + ConnectionString);
         }
 
         public override void CloseConnection()

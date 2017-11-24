@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises_S5_L31", "Exercises_S5_L31\Exercises_S5_L31.csproj", "{5333EA8D-A7D8-4A8F-ACA8-5DBC6F18342F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises_S5_L31_2", "Exercises_S5_L31\Exercises_S5_L31_2.csproj", "{5333EA8D-A7D8-4A8F-ACA8-5DBC6F18342F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

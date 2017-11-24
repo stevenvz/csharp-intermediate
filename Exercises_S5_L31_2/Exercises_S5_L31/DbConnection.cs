@@ -2,12 +2,12 @@
 using System.IO;
 using System.Threading;
 
-namespace Exercises_S5_L31
+namespace Exercises_S5_L31_2
 {
     public abstract class DbConnection
     {
-        public string _connectionString;
-        public TimeSpan _timeout;
+        public string ConnectionString;
+        public TimeSpan Timeout;
 
         protected DbConnection(string connectionString)
         {
@@ -15,8 +15,8 @@ namespace Exercises_S5_L31
             {
                 throw new InvalidDataException("Connection string cannot be null or empty.");
             }
-            _connectionString = connectionString;
-            _timeout = TimeSpan.FromMilliseconds(2000);
+            ConnectionString = connectionString;
+            Timeout = TimeSpan.FromMilliseconds(2000);
         }
         
         public abstract void OpenConnnection();
